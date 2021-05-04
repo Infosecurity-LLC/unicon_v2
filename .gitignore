@@ -1,0 +1,5 @@
+.idea/
+.panrc
+__pycache__
+_tests/
+reports/

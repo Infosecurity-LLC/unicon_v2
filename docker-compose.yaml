@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  unicon:
+    image: 127.0.01:5000/unicon
+    environment:
+    - GLOBAL_ENV=docker
+    volumes:
+      - /home/burtsev/configs/py/unicon/appconfig:/appconfig
